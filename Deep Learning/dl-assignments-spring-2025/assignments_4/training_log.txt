@@ -1,0 +1,38 @@
+MLP Accuracy: 0.6096463022508039
+Training Time: 32.00 seconds
+Model Configuration: MLP-256-128-64-32 layers with Dropout & BatchNorm, Learning Rate: 0.0003, Epochs: 42
+Confusion Matrix:
+[[  37  308  261]
+ [  29 1341  425]
+ [   7  184  518]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.06      0.11       606
+           1       0.73      0.75      0.74      1795
+           2       0.43      0.73      0.54       709
+
+    accuracy                           0.61      3110
+   macro avg       0.56      0.51      0.46      3110
+weighted avg       0.62      0.61      0.57      3110
+
+
+LSTM Accuracy: 0.6057877813504823
+Training Time: 46.52 seconds
+Model Configuration: LSTM-128-64-32 layers with Dropout & BatchNorm, Learning Rate: 0.0003, Epochs: 35
+Confusion Matrix:
+[[  21  308  277]
+ [  15 1329  451]
+ [   3  172  534]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.54      0.03      0.07       606
+           1       0.73      0.74      0.74      1795
+           2       0.42      0.75      0.54       709
+
+    accuracy                           0.61      3110
+   macro avg       0.57      0.51      0.45      3110
+weighted avg       0.63      0.61      0.56      3110
+
+
