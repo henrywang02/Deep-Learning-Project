@@ -11,8 +11,8 @@ In this GitLab Repository, you can find the templates of the Deep Learning assig
 
 ```
 # Enter your information here!
-student_name = 'Student's name or names' 
-student_email = "JAMK's student's email address or addresses"
+student_name = 'Vuong Quang Phat & Hua Trung Hieu' 
+student_id = "ac4933 & ag1802"
 ```
 
 ## Assignment templates
